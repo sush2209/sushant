@@ -1,0 +1,38 @@
+@media (max-width: 561px) {
+    .hero-name{
+        font-size: 80px; 
+        font-weight: 600;
+    }
+    .hero-desc{
+        line-height: 2;
+
+    }
+    .about{
+        background-color: #F1F6FA;
+        padding: 50px 0;
+        padding-left: 10px;
+    }
+    .abt-img{
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        border: solid 10px #f0cdc5;
+        margin-bottom: 10px;
+    }
+    .project-head {
+        font-size: 35px;
+    }
+    .nav label {
+        width: 200px;
+        height: 100%;
+    }
+    .form input{
+        width: 80%;
+    }
+    .form textarea{
+        width:80%
+    }
+    .form button{
+        width: 80%;
+    }
+}
