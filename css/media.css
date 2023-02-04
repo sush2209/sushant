@@ -21,7 +21,6 @@
     }
     .project-head {
         font-size: 35px;
-        padding:10px;
     }
     .nav label {
         width: 200px;
@@ -36,4 +35,11 @@
     .form button{
         width: 80%;
     }
+    .contact-hello{
+        padding-bottom: 30px;
+    }
+    .icons{
+        padding-bottom: 30px;
+    }
+   
 }
