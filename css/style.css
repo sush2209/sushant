@@ -238,6 +238,7 @@ html,body{
 .hobby{
     padding: 80px 0;
 }
+
 .slides {
     padding: 0;
     width: 800px;
@@ -395,13 +396,15 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     margin-bottom:15px;
 
 }
-.contact-email span{
+.contact-email span a{
     text-decoration: underline;
     color: black;
 }
 
-.icons i{
+.icons a i{
     margin-right: 10px;
+    text-decoration: none;
+    color: #1E1E21;
 }
 
 .form{
