@@ -21,6 +21,7 @@
     }
     .project-head {
         font-size: 35px;
+        padding:10px;
     }
     .nav label {
         width: 200px;
