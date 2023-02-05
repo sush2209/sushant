@@ -130,6 +130,7 @@ html,body{
     position: relative;
     animation-name:left;
     animation-duration: 1s;
+    transition-delay: 5s;
 }
 .right{
     width: 100px;
@@ -138,6 +139,7 @@ html,body{
     position: relative;
     animation-name: right;
     animation-duration: 1s;
+    transition-delay: 5s;
 }
 
 @keyframes left {
