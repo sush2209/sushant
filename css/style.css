@@ -227,11 +227,15 @@ html,body{
 .project_button{
     font-size: 15px;
     background: white;
-    color:black;
     font-weight: 500;
     margin-top: 12px;
     border: 1px white solid;
     padding: 8px 15px;
+}
+
+.project_button a{
+    text-decoration: none;
+    color: black;
 }
 
 
