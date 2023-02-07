@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="404.css" />
+    <title>404</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head text-center">404-page not found</div>
+      <p class="text-center">
+        "I'm sorry, but the page you're looking for has gone missing. It's
+        either hiding or it's been abducted by aliens. But in the meantime,
+        enjoy this quotes below"
+      </p>
+      <div class="text-center" id="heart-button">
+        Start Clicking here ❤️
+      </div>
+      <div id="quote-container">
+        <p id="quote"></p>
+      </div>
+      <div class="home-btn"><a href="https://sushantshelake.live/"> Back to Home</a></div>
+    </div>
+    <script>
+      const quotes = [
+        "DO EPIC SHIT , ALWAYS !",
+        "Happiness is not something ready made. It comes from your own actions.",
+        "You have only 1 life make it great."
+      ];
+
+      const heartButton = document.getElementById("heart-button");
+      const quoteContainer = document.getElementById("quote-container");
+      const quoteText = document.getElementById("quote");
+
+      heartButton.addEventListener("click", function () {
+        quoteContainer.style.display = "block";
+        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+        quoteText.innerHTML = randomQuote;
+      });
+    </script>
+  </body>
+</html>
