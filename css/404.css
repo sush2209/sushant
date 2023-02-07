@@ -60,13 +60,13 @@ html,body{
   
  @media (max-width: 561px) {
     .head{
-        font-size: 45px;
-        margin-top: 10px;
-        font-weight: 500;
+        font-size: 50px;
+        margin-top: 15px;
+        font-weight: 600;
     }
    
     .container p{
-        font-size: 15px;
+        font-size: 17px;
         line-height: 1.6;
     }
     .home-btn{
@@ -74,7 +74,7 @@ html,body{
         cursor: pointer;
     }
     #heart-button {
-        font-size: 16px;
+        font-size: 17px;
         width: 250px;
     }
     #quote-container {
@@ -86,6 +86,6 @@ html,body{
         border-left:red 4px solid;
     }
     #quote {
-        font-size: 18px;
+        font-size: 19px;
       }
 }
