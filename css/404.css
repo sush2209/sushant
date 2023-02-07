@@ -17,7 +17,7 @@ html,body{
 .container p{
     font-size: 20px;
     line-height: 2;
-    padding-top: 40px;
+    padding-top: 30px;
     color: #56595b;
     margin-bottom: 30px;
 }
@@ -61,7 +61,7 @@ html,body{
  @media (max-width: 561px) {
     .head{
         font-size: 50px;
-        margin-top: 15px;
+        margin-top: 20px;
         font-weight: 600;
     }
    
